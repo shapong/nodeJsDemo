@@ -10,9 +10,9 @@ $(document).ready(function() {
 
 	else {
 		if(name.toLowerCase()==="prateek") {
-			$("#intro").text("Hey bro check it out I know node.js now :P ");
+			$("#intro").text("Hey bro check it out...I know how to put a node.js app on aws now :P ");
 		}
-		if(name.toLowerCase()==="varsha") {
+		else if(name.toLowerCase()==="varsha") {
 			$("#intro").text("Hey doobs...you should start coding...u will suck less than me :P");
 		}
 		else {
