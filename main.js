@@ -18,5 +18,5 @@ var onRequest = function(request,response) {
 }
 
 var server = http.createServer(onRequest);
-
-server.listen(8081);
+var port = normalizePort(process.env.PORT || 3000);
+server.listen(port);
